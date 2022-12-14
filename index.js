@@ -112,9 +112,11 @@ box12.addEventListener('click',myFun11)
 let container = document.querySelector('.container1')
 
 container.addEventListener('click',(e)=>{
-    let number = e.target.getAttribute('id')
-    e.target.textContent = number
-    setTimeout(()=>{
-        e.target.textContent = ""
-    },5000)
+    if(e.target.matches('.box')){
+        let number = e.target.getAttribute('id')
+        e.target.textContent = number
+        setTimeout(()=>{
+            e.target.textContent = ""
+        },5000)
+        }
 })
