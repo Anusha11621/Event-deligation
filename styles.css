@@ -1,0 +1,42 @@
+.heading{
+  display: block;
+  text-align: center;
+}
+.maincotainer{
+    display: flex;
+    gap: 20px;
+    
+    justify-content: center;
+}
+.bgcolor{
+   
+   width: 450px;
+}
+.container{
+    
+    background-color: rgb(253, 139, 68);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.container1{
+    
+    background-color: rgb(253, 139, 68);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.box{
+    font-size: 40px;
+    text-align: center;
+    
+    height: 6rem;
+    width: 6rem;
+    color: white;
+    background-color: rgb(187, 186, 186);
+    
+}
